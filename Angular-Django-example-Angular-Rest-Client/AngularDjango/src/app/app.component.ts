@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'DjAngular Predictive Solution';
-  description = ' Postgres Database - Angular Client - Django Server - Pandas ';
+  title = 'grokonez.com';
+  description = 'Angular - Django App';
 }
