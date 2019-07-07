@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'DjAngular Predictive Solution';
+  title = 'DjAngular Analytical Solution';
   description = ' Postgres Database - Angular Client - Django Server - Pandas ';
   csvoutput = 'Download List in CSV';
 

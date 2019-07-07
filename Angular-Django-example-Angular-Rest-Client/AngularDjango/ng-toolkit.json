@@ -1,0 +1,18 @@
+{
+  "universal": {
+    "skipInstall": false,
+    "directory": ".",
+    "project": "AngularDjango"
+  },
+  "serverless": {
+    "provider": "aws",
+    "skipInstall": false,
+    "directory": ".",
+    "project": "AngularDjango",
+    "clientProject": "AngularDjango",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
