@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 plt.style.use('ggplot')
 
 # Read in data into a dataframe
-df = pd.read_csv('customerSb.csv')
+df = pd.read_csv('customer.csv')
 
 # Show the first 5 (or 10) rows of the table
 # df.tail(10)
