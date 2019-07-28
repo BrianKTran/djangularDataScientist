@@ -86,19 +86,7 @@ download(data: any, filename: string, columns: string, header: string, delimiter
   link.remove();
 }
 
-//   getcsvFile() {
-//
-//
-//       this.customers = this.customerService.getCustomersList();
-//       let file = new Blob([JSON.stringify(this.customers)], { type: 'data:application/csv;charset=utf-8,content_encoded_as_url' });
-//       this.convertToCSV(file, 'customer',
-// ['id', 'name', 'age', 'active'],
-// ['ID', 'Name', 'Age', 'Active'], ',')
-//       download(file, 'customer',
-// ['id', 'name', 'age', 'active'],
-// ['ID', 'Name', 'Age', 'Active'], ',')
-//
-//     }
+
 getcsvFile() {
 
     this.customerService.getCustomersList()
@@ -112,3 +100,17 @@ getcsvFile() {
 }
 
 }
+
+//   getcsvFile() {
+//
+//
+//       this.customers = this.customerService.getCustomersList();
+//       let file = new Blob([JSON.stringify(this.customers)], { type: 'data:application/csv;charset=utf-8,content_encoded_as_url' });
+//       this.convertToCSV(file, 'customer',
+// ['id', 'name', 'age', 'active'],
+// ['ID', 'Name', 'Age', 'Active'], ',')
+//       download(file, 'customer',
+// ['id', 'name', 'age', 'active'],
+// ['ID', 'Name', 'Age', 'Active'], ',')
+//
+//     }
