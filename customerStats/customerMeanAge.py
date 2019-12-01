@@ -15,6 +15,8 @@ df = df.iloc[:,:4]
 # df = df.iloc[:,:]
 # df.head()
 
+head = df.head()
 desc = df.describe()
 
+print(head)
 print(desc)

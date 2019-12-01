@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DjAngular Analytical Solution';
-  description = ' Postgres Database - Angular Client - Django Server - Pandas ';
+  description = 'Postgres Database - Angular Client - Django Server - Pandas, MatPlotLib';
   csvoutput = 'Download List in CSV';
 
 
