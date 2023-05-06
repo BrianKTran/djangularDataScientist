@@ -27,7 +27,7 @@
     "angular2-csv": "^0.2.9",
     "core-js": "^2.5.4",
     "file-saver": "^2.0.2",
-    "ngx-papaparse": "^3.0.2",
+    "ngx-papaparse": "^7.0.0",
     "rxjs": "~6.2.0",
     "rxjs-compat": "^6.5.2",
     "zone.js": "~0.8.26"
